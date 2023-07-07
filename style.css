@@ -1,5 +1,18 @@
+/* shared style */
+body {
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Peddana", serif;
+  font-family: "Roboto", sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* nav related style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
