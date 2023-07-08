@@ -1,5 +1,6 @@
 :root {
   --background-color: #fd6e0a;
+  --section-bg: #fff8f3;
 }
 /* shared style */
 body {
@@ -7,6 +8,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Peddana", serif;
   font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .text-primary {
   color: #fd6e0a;
@@ -31,8 +35,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
-.nav-title {
+.nav-logo {
   font-size: 45px;
   color: #181818;
   font-weight: 800;
@@ -40,10 +45,24 @@ nav {
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav > ul li:not(:last-child) {
   margin-right: 50px;
 }
 nav li {
   list-style: none;
+}
+/* ----------------------------------- header related style ------------------------------------ */
+header {
+  background-color: var(--section-bg);
+  padding: 10px 0 50px;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.profile-picture {
+  width: 500px;
 }
